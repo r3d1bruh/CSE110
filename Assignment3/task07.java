@@ -22,6 +22,5 @@ public class task07
 			}
 		}
 		System.out.println("Total Divisors: "+count);
-
     }
 }    

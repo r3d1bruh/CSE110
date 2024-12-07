@@ -11,7 +11,6 @@ public class task13
 			numtemp/=10;
 			count++;
 		}
-		//System.out.print("Total digits = "+count);
 		int temp = (int)Math.pow(10, count);
 		while(true)
 		{

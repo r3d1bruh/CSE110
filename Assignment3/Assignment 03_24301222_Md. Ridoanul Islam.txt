@@ -1,6 +1,5 @@
  
 //task01 
-import java.util.Scanner;
 public class task01
 {
     public static void main(String[] task01)
@@ -17,7 +16,6 @@ public class task01
     
  
 //task02 
-import java.util.Scanner;
 public class task02
 {
     public static void main(String[] task02)
@@ -33,7 +31,7 @@ public class task02
 }    
      
 //task03 
-import java.util.Scanner;
+
 public class task03
 {
     public static void main(String[] task03)
@@ -41,7 +39,7 @@ public class task03
 	int sum = 0;
 	for(int i = 1; i<=600;i++)
 	{
-		if(i%7==0&i%9==0)
+		if(i%7==0&&i%9==0)
 		{
 			sum +=i;
 		}
@@ -78,7 +76,7 @@ public class task05
     int sum = 0;
 	for(int i = 1; i<=600;i++)
 	{
-		if(i%7==0&i%9==0)
+		if(i%7==0&&i%9==0)
 		{
 			continue;
 		} 
@@ -93,16 +91,15 @@ public class task05
 }   
 //task06 
 import java.util.Scanner;
-
 public class task06 {
     public static void main(String[] Gaben) {
         Scanner x = new Scanner(System.in);
-		System.out.print
-		("Input the value of n: "); 
+		System.out.print("Input the value of n: "); 
         int n = x.nextInt();  
 		x.close();
         int y = 0;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) 
+		{
             y += Math.pow(i,2) * (int) Math.pow(-1, i + 1);
         }
         System.out.println("Output is " + y); 
@@ -134,7 +131,6 @@ public class task07
 			}
 		}
 		System.out.println("Total Divisors: "+count);
-
     }
 }     
 //task08 
@@ -145,9 +141,7 @@ public class task08
     {
         Scanner x = new Scanner(System.in);
 		System.out.print("Number of terms: ");
-		int terms = x.nextInt();
-        int sum = 0;
-		int odd;
+		int terms = x.nextInt(),sum = 0,odd;
         x.close();
 		System.out.println("The odd numbers are: ");
 		for(int i = 1; i<=terms; i++)
@@ -161,7 +155,6 @@ public class task08
 }    
      
 //task09 
-
 public class task09
 {
     public static void main(String[] Gaben)
@@ -185,7 +178,7 @@ public class task10
 		int sum = 0;
 		for(int i = 1; i<=n; i++)
 		{
-			if((i%5==0)&(i%3!=0))
+			if((i%5==0)&&(i%3!=0))
 			{
 				System.out.println(i);
 			}
@@ -242,7 +235,6 @@ public class task13
 			numtemp/=10;
 			count++;
 		}
-		//System.out.print("Total digits = "+count);
 		int temp = (int)Math.pow(10, count);
 		while(true)
 		{

@@ -9,7 +9,7 @@ public class task10
 		int sum = 0;
 		for(int i = 1; i<=n; i++)
 		{
-			if((i%5==0)&(i%3!=0))
+			if((i%5==0)&&(i%3!=0))
 			{
 				System.out.println(i);
 			}

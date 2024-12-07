@@ -6,6 +6,15 @@ public class template
         Scanner x = new Scanner(System.in);
         System.out.print(" ");
         x.close();
+		for(int i =1; i<0;i++)
+		{
+			if(){
+				
+			}
+			else(){
+				
+			}
+		}
 
     }
 }    

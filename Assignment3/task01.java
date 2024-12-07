@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class task01
 {
     public static void main(String[] task01)

@@ -5,9 +5,7 @@ public class task08
     {
         Scanner x = new Scanner(System.in);
 		System.out.print("Number of terms: ");
-		int terms = x.nextInt();
-        int sum = 0;
-		int odd;
+		int terms = x.nextInt(),sum = 0,odd;
         x.close();
 		System.out.println("The odd numbers are: ");
 		for(int i = 1; i<=terms; i++)

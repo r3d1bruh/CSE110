@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class task03
 {
     public static void main(String[] task03)
@@ -6,7 +6,7 @@ public class task03
 	int sum = 0;
 	for(int i = 1; i<=600;i++)
 	{
-		if(i%7==0&i%9==0)
+		if(i%7==0&&i%9==0)
 		{
 			sum +=i;
 		}
