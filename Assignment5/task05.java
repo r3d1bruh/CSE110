@@ -4,7 +4,7 @@ public class task05
     public static void main(String[] Gaben)
     {
         Scanner x = new Scanner(System.in);
-		        System.out.print(" ");
+		System.out.print("Drop your spell to unlock chest: ");
 		String spell = x.nextLine();
 		String vowels = "aeiou";
 		int StatTrak =1, DragonLore=1;
@@ -32,4 +32,3 @@ public class task05
 		}		
     }
 }    
-    
