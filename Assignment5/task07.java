@@ -7,8 +7,7 @@ public class task07
         System.out.print("First string: ");
         String corvo = x.nextLine().toLowerCase();
         System.out.print("Second string: ");
-        String attano = x.nextLine().toLowerCase();
-		x.close();
+        String attano = x.nextLine();
 		
         String output = "";
 
