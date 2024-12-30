@@ -26,7 +26,7 @@ public class task03
 
         for(int StatTrak=0; StatTrak<nArr.length/2; StatTrak++)
         {    
-            int temp = StatTrak;
+            int temp = nArr[StatTrak];
             nArr[StatTrak] = nArr[nArr.length-1-StatTrak];
             nArr[nArr.length-1-StatTrak] = temp;    
         }
