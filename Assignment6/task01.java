@@ -5,10 +5,10 @@ public class task01
     public static void main(String[] args)
     {
         Scanner x = new Scanner(System.in);
-        System.out.println("What is the value of N homie?");
+        System.out.print("value of N homie?: ");
         int nValue = x.nextInt();
         int[] nArr = new int[nValue];
-        for(int StatTrak =0; StatTrak < nValue;StatTrak++)
+        for(int StatTrak =0; StatTrak < nArr.length5;StatTrak++)
         {
             System.out.print("Enter a number: ");
             nArr[StatTrak] = x.nextInt();
