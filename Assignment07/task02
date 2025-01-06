@@ -1,0 +1,29 @@
+public class task02
+{
+    public static double circleArea(double Gaben)
+    {
+       double circleArea = Math.PI*Math.pow(Gaben,2);  
+       return circleArea;  
+    }
+    public static double sphereVolume(double Gaben)
+    {
+       double sphereVolume = (4*Math.PI*Math.pow(Gaben,3))/3;  
+       return sphereVolume;  
+    }
+    public static void findSpace(double Gaben, String type)
+    {
+        if(type.equals("circle"))
+        {
+            System.out.println(circleArea(Gaben));
+        }
+        else if(type.equals("sphere"))
+        {
+            System.out.println(sphereVolume(Gaben));
+        }
+        
+    }
+    public static void main(String[] args)
+    {
+        findSpace(10,"circle");
+    }
+}
