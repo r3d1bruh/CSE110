@@ -2,29 +2,18 @@
 {
     public static boolean isPrime(int suspect)
     {
-       if((alpha+beta)>gamma && (beta+gamma)>alpha && (alpha+gamma)>beta)
-       {
-        return true;
-       }       
-       else 
-       {
-        return false;
-       }   
-    }
-    public static void triArea(int alpha, int beta, int gamma)
-    {
-       if(isTriangle(alpha,beta,gamma))
-       {
-        double s = (alpha+beta+gamma)/2;
-        System.out.println(Math.sqrt(s*(s-alpha)*(s-beta)*(s-gamma)));
-       }
-       else
-       {
-        System.out.println("Can't form triangle");
-       }
+       for(int StatTrak = 2 ; StatTrak<suspect; StatTrak++)
+        {
+         if(suspect%StatTrak==0)
+         {
+          return true
+         }
+        }
+     return false
     }
     public static void main(String[] args)
     {
-        triArea(3,2,1);
+       boolean check = isPrime(7);
+       System.out.println(check);
     }
 }
