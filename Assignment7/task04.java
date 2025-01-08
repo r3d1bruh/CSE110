@@ -6,14 +6,14 @@
         {
          if(suspect%StatTrak==0)
          {
-          return true
+          return false;
          }
         }
-     return false
+     return true;
     }
     public static void main(String[] args)
     {
-       boolean check = isPrime(7);
+       boolean check = isPrime(15);
        System.out.println(check);
     }
 }
