@@ -11,9 +11,25 @@
         }
      return true;
     }
+    public static boolean isPerfect(int suspect)
+    {
+        int sum =0;
+       for (int StatTrak = 1; StatTrak < suspect; StatTrak++) 
+       {
+        if (suspect % StatTrak == 0) 
+        {
+            sum+=StatTrak;
+        }
+        
+       } 
+       if(sum == suspect)
+       {
+           return true;
+       }
+       return false;
+    }
     public static void main(String[] args)
     {
-       boolean check = isPrime(15);
-       System.out.println(check);
+     System.out.println(isPerfect(33));
     }
 }
