@@ -1,4 +1,4 @@
- public class Main
+ public class task04
 {
     public static boolean isPrime(int suspect)
     {
